@@ -53,20 +53,21 @@ A full-stack expense tracking application built with **React**, **Tailwind CSS**
 
 ---
 ## Auth View
-![Register Page](assets/ExpenseTracker_Register.png)
-![Login Page](assets/ExpenseTracker_Login.png)
+![Register Page](frontend/src/assets/ExpenseTracker_Register.png)
+![Login Page](frontend/src/assets/ExpenseTracker_Login.png)
 
 ## Dashboard View
-![Dashboard Main](assets/ExpenseTracker_Dashboard.png)
-![Analytics View](assets/ExpenseTracker_Analytics.png)
-![Create Expense Modal](assets/ExpenseTracker_Modal.png)
-![Summary Cards](assets/ExpenseTracker_SummaryCards.png)
+![Dashboard](frontend/src/assets/ExpenseTracker_Dashboard.png)
+![Analytics](frontend/src/assets/ExpenseTracker_Analytics.png)
+![Modal](frontend/src/assets/ExpenseTracker_Modal.png)
+![Summary Cards](frontend/src/assets/ExpenseTracker_SummaryCards.png)
 
 ## Tabs View
-![Tabs View](assets/ExpenseTracker_TabsView.png)
+![Tabs View](frontend/src/assets/ExpenseTracker_TabsView.png)
 
 ## User Profile
-![User Profile](assets/ExpenseTracker_Profile.png)
+![User Profile](frontend/src/assets/ExpenseTracker_Profile.png)
+
 
 
 ## Project Structure
@@ -178,6 +179,7 @@ A full-stack expense tracking application built with **React**, **Tailwind CSS**
 ## License
 
 This project is licensed under the MIT License.
+
 
 
 
