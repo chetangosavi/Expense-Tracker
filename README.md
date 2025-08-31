@@ -35,12 +35,8 @@ A full-stack expense tracking application built with **React**, **Tailwind CSS**
   * **Pie Chart:** Distribution of expenses
 * **Summary Cards:** Total expenses, monthly expenses, and category-wise totals.
 
-### 5. Responsive UI
 
-* Built with **Tailwind CSS** for a modern, responsive design.
-* Sticky **Navbar** and **Footer** for consistent navigation.
-
-### 6. Modals
+### 5. Modals
 
 * Create and edit expenses via a modal form for smooth UX.
 
@@ -158,13 +154,14 @@ A full-stack expense tracking application built with **React**, **Tailwind CSS**
 
 ## Author
 
-**Rupesh / Chetan**
-[GitHub](https://github.com/yourusername) | [Portfolio](https://yourwebsite.com)
+**Chetan Gosavi**
+[GitHub](https://github.com/chetangosavi) 
 
 ---
 
 ## License
 
 This project is licensed under the MIT License.
+
 
 
