@@ -52,6 +52,23 @@ A full-stack expense tracking application built with **React**, **Tailwind CSS**
 * **Modal:** Custom Modal component
 
 ---
+## Auth View
+![Dashboard](assets/ExpenseTracker_Register.png)
+![Dashboard](assets/ExpenseTracker_Login.png)
+## Dashboard View
+
+![Dashboard](assets/ExpenseTracker_Dashboard.png)
+![Dashboard](assets/ExpenseTracker_Analytics.png)
+![Dashboard](assets/ExpenseTracker_Modal.pngs)
+![Dashboard](assets/ExpenseTracker_SummaryCards.png)
+
+## Tabs View
+
+![Tabs View](assets/ExpenseTracker_TabsView.png)
+
+## User Profile
+
+![User Profile](assets/ExpenseTracker_Profile.png)
 
 ## Project Structure
 
@@ -162,6 +179,7 @@ A full-stack expense tracking application built with **React**, **Tailwind CSS**
 ## License
 
 This project is licensed under the MIT License.
+
 
 
 
