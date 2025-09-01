@@ -1,6 +1,7 @@
-import SummaryCard from "./SummaryCard";
+import SummaryCard from "./SummaryCard.jsx";
 import ExpenseChart from "./ExpenseChart";
-import ExpenseTable from "./Expensetable";
+
+import ExpenseTable from "./ExpenseTable.jsx";
 import LineChart from "./LineChart.jsx";
 import Navbar from "./Navbar";
 import { useEffect, useState } from "react";

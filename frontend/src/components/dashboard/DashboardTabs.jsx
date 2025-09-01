@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import Navbar from "./Navbar";
-import SummaryCard from "./SummaryCard";
-import ExpenseTable from "./Expensetable";
+import SummaryCard from "./SummaryCard.jsx";
+import ExpenseTable from "./ExpenseTable.jsx";
 import LineChart from "./LineChart.jsx";
 import BarChart from "./BarChart.jsx";
 import PieChart from "./PieChart.jsx";
