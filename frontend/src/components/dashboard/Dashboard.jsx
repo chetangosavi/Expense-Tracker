@@ -12,6 +12,7 @@ import Modal from "../modal/Modal.jsx";
 import CreateExpenseForm from "./CreateExpenseForm.jsx";
 import Footer from "./Footer.jsx";
 import { useNavigate } from "react-router-dom";
+import { backendUrl } from "../../constant/constants.js";
 
 const Dashboard = () => {
   const [expenses, setExpenses] = useState([]);
@@ -37,7 +38,7 @@ const Dashboard = () => {
 
   const handleDeleteExpense = async (id) => {
     try {
-      await fetch(`http://localhost:5000/api/expenses/delete/${id}`, {
+      await fetch(`${backendUrl}/expenses/delete/${id}`, {
         method: "DELETE",
         headers: { Authorization: `Bearer ${localStorage.getItem("token")}` },
       });

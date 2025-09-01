@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import { useNavigate } from "react-router-dom";
 import Button from "./Button";
 import Navbar from "./Navbar";
-
+import { backendUrl } from "../../constant/constants.js";
 const UserProfile = () => {
   const [user, setUser] = useState(null);
   const navigate = useNavigate();
@@ -12,7 +12,7 @@ const UserProfile = () => {
     const fetchUser = async () => {
       try {
         const token = localStorage.getItem("token");
-        const res = await fetch("http://localhost:5000/api/auth/me", {
+        const res = await fetch(`${backendUrl}/auth/me`, {
           headers: { Authorization: `Bearer ${token}` },
         });
         if (!res.ok) {

@@ -10,6 +10,7 @@ import CreateExpenseForm from "./CreateExpenseForm.jsx";
 import { getExpenses } from "../../services/expenseServices.js";
 import Footer from "./Footer.jsx";
 import { useNavigate } from "react-router-dom";
+import { backendUrl } from "../../constant/constants.js";
 
 const DashboardTabs = () => {
   const [expenses, setExpenses] = useState([]);
@@ -37,7 +38,7 @@ const DashboardTabs = () => {
 
   const handleDeleteExpense = async (id) => {
     try {
-      await fetch(`http://localhost:5000/api/expenses/delete/${id}`, {
+      await fetch(`${backendUrl}/expenses/delete/${id}`, {
         method: "DELETE",
         headers: { Authorization: `Bearer ${localStorage.getItem("token")}` },
       });

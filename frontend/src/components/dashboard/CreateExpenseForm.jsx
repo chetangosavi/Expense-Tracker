@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import axios from "axios";
 import { toast } from "react-toastify";
+import { backendUrl } from "../../constant/constants.js";
 
 const CreateExpenseForm = ({
   onClose,
@@ -97,14 +98,14 @@ const CreateExpenseForm = ({
       if (mode === "edit" && initialData?._id) {
         // update - adjust endpoint if your backend differs
         res = await axios.put(
-          `http://localhost:5000/api/expenses/update/${initialData._id}`,
+          `${backendUrl}/expenses/update/${initialData._id}`,
           payload,
           { headers: { Authorization: `Bearer ${token}` } }
         );
       } else {
         // create - keep your existing create route
         res = await axios.post(
-          "http://localhost:5000/api/expenses/create-expense",
+          `${backendUrl}/expenses/create-expense`,
           payload,
           { headers: { Authorization: `Bearer ${token}` } }
         );
